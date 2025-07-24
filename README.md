@@ -1,68 +1,106 @@
-# ⚡ ZapChat
+# ⚡ BuzzChat
 
-ZapChat is a **powerful real-time chat application** built with the **MERN stack**, integrating **Socket.io for live messaging**, **Cloudinary for image storage**, and **Zustand for state management**. It offers **instant messaging**, the ability to **send images**, and allows users to **update their profile pictures** securely with JWT authentication. Designed with a **modern and responsive UI using Tailwind CSS and Daisy UI**, ZapChat ensures an engaging user experience on all devices.
+**BuzzChat** is a **powerful real-time chat application** built with the **MERN stack**, integrating **Socket.io for live messaging**, **Cloudinary for image storage**, and **Zustand for state management**. It offers **instant messaging**, the ability to **send images**, and allows users to **update their profile pictures** securely with JWT authentication. Designed with a **modern and responsive UI using Tailwind CSS and Daisy UI**, ZapChat ensures an engaging user experience on all devices.
+
+- 🔁 **Live messaging** using **Socket.io**  
+- 🖼️ **Image sharing** with **Cloudinary**  
+- 🌐 **State management** with **Zustand**  
+- 🔒 Secure **JWT authentication**  
+- 🧑‍🎨 Modern, responsive UI with **Tailwind CSS** & **Daisy UI**
 
 ---
 
-## 🚀 Live Link
+## 🚀 Live Demo
 
-👉 [ZapChat Live](https://zapchat-02.onrender.com/login)
+👉 [Try BuzzChat Now](https://buzzchat-xbhi.onrender.com)
 
 ---
 
 ## ✨ Features
 
-- 🔒 **JWT Authentication** for secure signup and login  
-- 💬 **Real-time messaging** with Socket.io  
-- 🖼️ Send and receive **images in chats** with Cloudinary storage  
-- 📝 **Update profile picture** anytime with Cloudinary integration  
-- ⚡ **Global state management** using Zustand  
-- 🎨 **Beautiful, responsive UI** with Tailwind CSS and Daisy UI  
-- 🌐 **MongoDB database** for storing users and messages efficiently
+- 🔐 **JWT Authentication** for secure login/signup  
+- ⚡ **Real-time chat** with Socket.io  
+- 📷 **Send & receive images** (Cloudinary integration)  
+- 🖼️ **Profile picture upload/update**  
+- 🧠 **Global state** handled by Zustand  
+- 💅 **Responsive UI** using Tailwind CSS & Daisy UI  
+- 🗃️ **MongoDB backend** to manage users & messages
 
 ---
 
 ## 🔧 Tech Stack
 
-- **Frontend:** React.js, Tailwind CSS, Daisy UI, Zustand  
-- **Backend:** Node.js, Express.js  
-- **Real-time:** Socket.io  
-- **Database:** MongoDB with Mongoose  
-- **Authentication:** JSON Web Token (JWT)  
-- **Image Storage:** Cloudinary  
-- **Deployment:** Render
+**Frontend:**  
+- React.js  
+- Tailwind CSS  
+- Daisy UI  
+- Zustand  
+
+**Backend:**  
+- Node.js  
+- Express.js  
+
+**Real-time:**  
+- Socket.io  
+
+**Database:**  
+- MongoDB (Mongoose)  
+
+**Authentication:**  
+- JSON Web Token (JWT)  
+
+**Image Storage:**  
+- Cloudinary  
+
+**Deployment:**  
+- Render  
 
 ---
 
+## 📦 Installation Guide
 
-## 📂 Installation
+### 1. Clone the Repository
 
-Clone the repository:
+```bash
+git clone https://github.com/shahsunny16/BuzzChat.git
+cd BuzzChat
+```
 
+---
 
-git clone https://github.com/Himanshyou10/ZapChat.git
-cd ZapChat
+### 2. Install Server Dependencies
 
-
-
-## Install server dependencies
+```bash
 cd server
 npm install
+```
 
+---
 
+### 3. Install Client Dependencies
 
-## Install client dependencies
+```bash
 cd ../client
 npm install
+```
 
+---
 
-##🏃‍♂️ Run Locally
+## 🏃‍♂️ Run Locally
 
-Start server
+### Start the Server
+
+```bash
 cd server
 npm start
+```
 
+### Start the Client
 
-Start client
+```bash
 cd ../client
 npm start
+```
+
+---
+
